@@ -43,7 +43,7 @@ class DirectDestinations
      *    Find all destinations served by a given airport.
      * </p>
      *
-     * ```
+     * ```PHP
      *  $amadeus->getAirport()->getDirectDestinations()->get(
      *      ["departureAirportCode" => "MAD", "max" => 2]
      *  );
