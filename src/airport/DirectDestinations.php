@@ -43,11 +43,11 @@ class DirectDestinations
      *    Find all destinations served by a given airport.
      * </p>
      *
-     * <code>
+     * ```
      *  $amadeus->getAirport()->getDirectDestinations()->get(
      *      ["departureAirportCode" => "MAD", "max" => 2]
      *  );
-     * </code>
+     * ```
      *
      * @see https://developers.amadeus.com/self-service/category/air/api-doc/airport-routes/api-reference
      *
